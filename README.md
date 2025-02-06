@@ -6,7 +6,15 @@
 - `Dockerfile` featuring the latest PHP 8.4
 - Laravel 11 framework
 - Database seeder generating 1,000,000 user records
-- `about-me/{id}` API endpoint for randomized user ID testing
+- `about-me/{id}`  testing
+
+## Endpoints
+
+| Endpoints              | Description                                                        |
+|------------------------|--------------------------------------------------------------------|
+| `/about-me/{id}`       | API endpoint for randomized user ID                                |
+| `/cache/about-me/{id}` | API endpoint for randomized user ID with cache mechanism           |
+| `/direct`              | API endpoint for return response directly (no external connection) |
 
 ## How to Set Up?
 
