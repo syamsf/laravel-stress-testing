@@ -23,6 +23,8 @@ WORKDIR /var/www/html
 COPY . /var/www/html
 RUN composer install --optimize-autoloader --no-dev
 
+RUN php artisan octane:install
+
 EXPOSE 8000
 
 CMD ["php", "artisan", "octane:start", "--host=0.0.0.0", "--port=8000"]

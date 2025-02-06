@@ -10,11 +10,9 @@
 
 ## How to Set Up?
 
-1. Install dependencies: `composer install`
-2. Set up Octane: `php artisan octane:install`
-3. Run database migrations: `php artisan migrate`
-4. Seed the database: `php artisan db:seed`
-5. Start Docker containers: `docker-compose up -d`
+1. Start Docker containers: `docker-compose up -d`
+2. Run database migrations: `php artisan migrate`
+3. Seed the database: `php artisan db:seed`
 
 ## Important Notes
 

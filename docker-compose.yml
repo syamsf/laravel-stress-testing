@@ -9,7 +9,10 @@ services:
     ports:
       - "2704:8000"
     volumes:
-      - .:/var/www/html
+      - "./app:/var/www/html/app"
+      - "./database:/var/www/html/database"
+      - "./routes:/var/www/html/routes"
+      - "./.env:/var/www/html/.env"
     depends_on:
       - db
 
@@ -28,3 +31,4 @@ services:
 
 volumes:
   db_data:
+
