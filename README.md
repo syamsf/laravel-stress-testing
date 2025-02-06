@@ -6,7 +6,6 @@
 - `Dockerfile` featuring the latest PHP 8.4
 - Laravel 11 framework
 - Database seeder generating 1,000,000 user records
-- `about-me/{id}`  testing
 
 ## Endpoints
 

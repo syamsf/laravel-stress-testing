@@ -11,5 +11,5 @@ export default function () {
         'response time is less than 500ms': (r) => r.timings.duration < 500,
       });
 
-    sleep(1);
+    // sleep(1);
 }
